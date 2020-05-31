@@ -1,0 +1,508 @@
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/3680
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-3680]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/L2404
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-L2404]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Starting REST source task
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/3680
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-3680]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/L2481
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-L2481]
+
+Starting REST source task
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/L2404
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-L2404]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/059793
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-059793]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Starting REST source task
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/L2481
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-L2481]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Starting REST source task
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/059793
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-059793]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Stopping source task
+Stopping source task
+Stopping source task
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/L2404
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-L2404]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Starting REST source task
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/L2404
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-L2404]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Loaded Offsets: [timestamp=1590882160445]
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/L2481
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-L2481]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Starting REST source task
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/L2481
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-L2481]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Loaded Offsets: [timestamp=1590882161956]
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/059793
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-059793]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Starting REST source task
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/059793
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-059793]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Loaded Offsets: [timestamp=1590882162965]
+Stopping source task
+Stopping source task
+Stopping source task
+Stopping source task
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/3680
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-3680]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/L2404
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-L2404]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Starting REST source task
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/L2404
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-L2404]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+Starting REST source task
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/3680
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-3680]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Loaded Offsets: [timestamp=1590882396386]
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/L2481
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-L2481]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Starting REST source task
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/L2481
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-L2481]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Loaded Offsets: [timestamp=1590882396859]
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/059793
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-059793]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Starting REST source task
+RestSourceConnectorConfig values: 
+	rest.http.executor.class = class com.tm.kafka.connect.rest.http.executor.OkHttpRequestExecutor
+	rest.source.data.generator = class com.tm.kafka.connect.rest.http.payload.ConstantPayloadGenerator
+	rest.source.method = GET
+	rest.source.poll.interval.ms = 900000
+	rest.source.topic.selector = class com.tm.kafka.connect.rest.selector.SimpleTopicSelector
+	rest.source.url = http://environment.data.gov.uk/flood-monitoring/id/stations/059793
+
+SimpleTopicSelectorConfig values: 
+	rest.source.destination.topics = [flood-monitoring-059793]
+
+OkHttpRequestExecutorConfig values: 
+	rest.http.connection.connection.timeout = 2000
+	rest.http.connection.keep.alive.ms = 300000
+	rest.http.connection.max.idle = 5
+	rest.http.connection.read.timeout = 2000
+
+ConstantPayloadGeneratorConfig values: 
+	rest.source.body = 
+	rest.source.headers = []
+	rest.source.param.names = []
+
+Loaded Offsets: [timestamp=1590882397365]
